@@ -1,0 +1,109 @@
+.fixed {position: absolute;color:  rgb(80, 10, 10);
+margin-top: -100px;margin-left: px;
+display: flex; flex-wrap: nowrap;
+}
+.fixed div {
+     padding-left:100px;
+}
+#hedbox{border: 2px;border-color: #070000;background-color: #f1f1f1;
+      border-style: outset;padding: 2px;height: 30px;width: 500px;
+      margin-left: 150px; padding-top: 12px; margin-top: 10px;
+
+}
+
+
+
+     li {
+          display: inline-block;
+          color: black;
+     }
+.hed {margin-top: 110px; margin-bottom: -140px; 
+
+}
+  #home {
+          position: relative; 
+          left: 100px;
+          
+     }
+     #meals {
+          position: relative; 
+          left: 200px;
+            }
+     #videos {
+          position: relative;
+          left: 300px;
+     }
+     #about {
+          position: relative;
+          left: 400px;
+     }
+     #col { background-color: antiquewhite;
+
+     }
+     
+     .fnt {
+          text-align: center;
+          margin-top: 150px;
+          margin-bottom: -100px;
+          top: 120px;
+          background-color: rgb(80, 10, 10);
+          color: white;
+     }
+     body {
+          overflow-y: 
+          scroll;
+     }
+     #buttonx, #buttony {
+          position: relative;
+          top: 1000px; 
+          text-align: center;
+          left: 600px;
+          background-color:  blanchedalmond;
+           padding: 1px 20px;
+           border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            ;
+          }
+     #buttony {
+          position: relative;
+          left: 700px;
+      }
+      #pic {
+          image; position: relative;top: 50px;
+      }
+      .pics { display: flex;
+          flex-wrap: nowrap;
+
+      }
+      .pics div {
+          padding-right: 15px;
+          padding-top: 50px;
+          ;
+      }
+      .america {display: flex;flex-wrap: nowrap;
+          
+           background-color:rgb(80, 10, 10);padding: 1px; margin-top: 10px;
+           font-size: 22px;
+           color: white;
+      }
+   .america div {
+     padding-left: 80px;
+     /* padding: 10px; */
+   }
+   .sec { display: flex;flex-wrap: nowrap; flex-direction: column;
+     float:right; margin-top: -570px;
+     margin-right: 80px;padding: 27px;
+   }
+   .first { display: flex;flex-wrap: nowrap; flex-direction: column;float: right; 
+   }
+   .firstt {display: flex;flex-wrap: nowrap; flex-direction: column;float: right;
+margin-right:110px;
+   }
+   #the {text-decoration: underline; 
+
+   }
+   .second { display: flex;flex-wrap: nowrap; flex-direction: column;float: right; 
+margin-right: -20px;
+   }
+  

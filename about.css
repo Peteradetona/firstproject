@@ -1,0 +1,39 @@
+.fixed {position: absolute;color:  rgb(80, 10, 10);
+margin-top: -100px;margin-left: px;
+display: flex; flex-wrap: nowrap;
+}
+.fixed div {
+     padding-left:100px;
+}
+#hedbox{border: 2px;border-color: #070000;background-color: #f1f1f1;
+      border-style: outset;padding: 2px;height: 30px;width: 500px;
+      margin-left: 150px; padding-top: 12px; margin-top: 10px;
+
+}
+
+
+
+     li {
+          display: inline-block;
+          color: black;
+     }
+.hed {margin-top: 110px; margin-bottom: -140px; 
+
+}
+  #home {
+          position: relative; 
+          left: 100px;
+          
+     }
+     #meals {
+          position: relative; 
+          left: 200px;
+            }
+     #videos {
+          position: relative;
+          left: 300px;
+     }
+     #about {
+          position: relative;
+          left: 400px;
+     }

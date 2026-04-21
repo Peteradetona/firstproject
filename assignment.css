@@ -1,0 +1,6 @@
+body {background-color: aquamarine;}
+table, th, td {border: 1px solid black;}
+tr:nth-child(even) {background-color: #d47e7e;}
+.city {background-color: blue;color: white;
+border: 2px solid black;margin: 20px;padding: 20px;}
+#myheader {background-color: blueviolet;color: black;padding: 40px;text-align: center;}
