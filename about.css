@@ -1,13 +1,45 @@
-.fixed {position: absolute;color:  rgb(80, 10, 10);
-margin-top: -100px;margin-left: px;
-display: flex; flex-wrap: nowrap;
+body{
+     width: 100vw;
+     margin: 0px;
+     padding: 0px;
 }
+.fixed {
+     
+     color:  rgb(80, 10, 10);
+     
+    
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     align-items: center;
+}
+.news a {
+     margin: 10px;
+     text-decoration: none;
+
+}
+.news {
+     display: flex;
+     align-items: center;
+} 
+.header {
+     border-bottom: #070000 2px solid;
+     
+     background-color: aqua;
+     
+
+}
+
 .fixed div {
-     padding-left:100px;
+     
 }
 #hedbox{border: 2px;border-color: #070000;background-color: #f1f1f1;
-      border-style: outset;padding: 2px;height: 30px;width: 500px;
-      margin-left: 150px; padding-top: 12px; margin-top: 10px;
+      border-style: outset;padding: 2px;
+      /* height: 30px; */
+      width: 500px;
+      margin-left: 150px;
+       /* padding-top: 12px; */
+       /* margin-top: 10px; */
 
 }
 
@@ -17,23 +49,32 @@ display: flex; flex-wrap: nowrap;
           display: inline-block;
           color: black;
      }
-.hed {margin-top: 110px; margin-bottom: -140px; 
+.hed {
+     /* margin-top: 110px; */
+      /* margin-bottom: -140px;  */
 
 }
   #home {
-          position: relative; 
+          /* position: relative;  */
           left: 100px;
           
      }
      #meals {
-          position: relative; 
+          /* position: relative;  */
           left: 200px;
             }
      #videos {
-          position: relative;
+          /* position: relative; */
           left: 300px;
      }
      #about {
-          position: relative;
+          /* position: relative; */
           left: 400px;
+     }
+     .art {
+          display: grid; grid-template-areas: 
+          "menu content"
+          "footer footer";
+          grid-template-columns: 1fr 3fr;
+
      }
