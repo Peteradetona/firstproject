@@ -54,3 +54,50 @@ form input { width: 430px; height: 35px;
      padding-bottom: 10px;
 
 }
+.wid {
+    max-width: 600px;
+    margin-left: 300px;
+}
+
+
+.foot b{
+     display: block;
+     padding: 10px;
+     
+  }
+  .foot {
+     margin-top: 110px;
+  }
+  .foot2 {
+     margin-top: 110px;
+  }
+
+  .footer {
+     display: flex; 
+     flex-wrap: nowrap;
+     justify-content: space-around; 
+     border-top:whitesmoke; border-style: inset;
+     background-color: whitesmoke;
+
+
+  }
+  .let b {
+     border: 3px solid red;
+     padding: 8px;
+     padding-left: 100px;
+     padding-right: 100px;
+     background-color: white;
+}
+.all div {
+     padding: 30px;
+} 
+
+/* meals link to receipe all in cookies */
+.dad {
+    max-width: 800px;
+    margin-left: 300px;
+}
+.straw {
+    max-width: 800px;
+    margin-left: 300px;
+}
