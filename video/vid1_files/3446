@@ -1,0 +1,801 @@
+"use strict";(function(){try{var record=function(name,detail){aps.get(accountId).queue.push(new CustomEvent(name,{detail}))};const accountId="3446";window._aps=window._aps||new Map;const aps=window._aps;aps.has(accountId)||aps.set(accountId,{queue:[],store:new Map}),record("_config/requestViewerCountry/define",{"code":"NG"});record("analytics/sampling/set",{"rates":{"error":0.001,"status":0.0001}});record("a3pes/banner/activate",{"restrictions":{"allow":{"accountTypes":["ssw"]}}});record("idVendors/enabled/set",{"bidParameterKeys":["liveintent","merkle","intimateMerger","pair","amx","33across","fTrack","captify","publink","anonymised","quantcast","idPlus","unifiedid","ddb_key_638","fabrick","uid","criteo","yahoo","liveRamp","id5","pubcommon","audigent","lightPublisherAudiences","lotame"]});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"NG","vendorId":"id5","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["thespruceeats.com","allrecipes.ca","bodynetwork.com","emerils.com","livingthecountrylife.com","verywellhealth.com","xojane.com","siempremujer.com","southernliving.com","ew.com","aboutespanol.com","hellogiggles.com","liveabout.com","verywellmind.com","thesprucepets.com","simplyrecipes.com","shape.com","babynames.net","mywedding.com","departures.com","verywell.com","allpeoplequilt.com","instyle.com","people.com","myrecipes.com","thebalance.com","diabeticliving.com","eatthis.com","investopedia.com","thoughtco.com","eatingwell.com","betterhomesandgardens.com","allrecipes.com.au","verywellfamily.com","thebalancesmb.com","bhg.com","treehugger.com","selectablemedia.com","mydomaine.com","celebwell.com","foodandwine.com","realsimple.com","travelandleisure.com","cookinglight.com","thespruce.com","fitpregnancy.com","seriouseats.com","diabeticlivingonline.com","peopleenespanol.com","health.com","dailypaws.com","thebalancecareers.com","parenting.com","thebalancemoney.com","entertainmentweekly.com","more.com","byrdie.co.uk","woodmagazine.com","about.com","serpadres.com","parents.com","brides.com","allrecipes.co.uk","midwestliving.com","themagnoliajournal.com","dotdash.com","thebalanceeveryday.com","allrecipes.com","bestlifeonline.com","lifewire.com","tripsavvy.com","thesprucecrafts.com","liquor.com","byrdie.com","marthastewartweddings.com","marthastewart.com","local.thespruce.com","learnreligions.com","thethirty.byrdie.com","verywellfit.com","traditionalhome.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+var id5PropertyId = '957';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+var id5PropertyId = '957';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})()
+},"propertyId":"957"}],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+var id5PropertyId = '957';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+var id5PropertyId = '957';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})()
+},"defaultPropertyId":"957"});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"NG","vendorId":"liveRamp","allowedRegions":undefined,"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["thespruceeats.com","allrecipes.ca","bodynetwork.com","emerils.com","livingthecountrylife.com","verywellhealth.com","xojane.com","siempremujer.com","southernliving.com","ew.com","aboutespanol.com","hellogiggles.com","liveabout.com","verywellmind.com","thesprucepets.com","simplyrecipes.com","shape.com","babynames.net","mywedding.com","departures.com","verywell.com","allpeoplequilt.com","instyle.com","people.com","myrecipes.com","thebalance.com","diabeticliving.com","eatthis.com","investopedia.com","thoughtco.com","eatingwell.com","betterhomesandgardens.com","allrecipes.com.au","verywellfamily.com","thebalancesmb.com","bhg.com","treehugger.com","selectablemedia.com","mydomaine.com","celebwell.com","foodandwine.com","realsimple.com","travelandleisure.com","cookinglight.com","thespruce.com","fitpregnancy.com","seriouseats.com","diabeticlivingonline.com","peopleenespanol.com","health.com","dailypaws.com","thebalancecareers.com","parenting.com","thebalancemoney.com","entertainmentweekly.com","more.com","byrdie.co.uk","woodmagazine.com","about.com","serpadres.com","parents.com","brides.com","allrecipes.co.uk","midwestliving.com","themagnoliajournal.com","dotdash.com","thebalanceeveryday.com","allrecipes.com","bestlifeonline.com","lifewire.com","tripsavvy.com","thesprucecrafts.com","liquor.com","byrdie.com","marthastewartweddings.com","marthastewart.com","local.thespruce.com","learnreligions.com","thethirty.byrdie.com","verywellfit.com","traditionalhome.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+var liveRampPropertyId = '08378bf6-c29a-482b-88a2-bf3e3bcf4974';
+if (!window.launchPad && liveRampPropertyId && liveRampPropertyId.charAt(0) !== '%') {
+  var liverampScript = document.createElement('script');
+  liverampScript.setAttribute('async', 'async');
+  liverampScript.setAttribute('defer', 'defer');
+  liverampScript.setAttribute('src','https://launchpad-wrapper.privacymanager.io/' + liveRampPropertyId + '/launchpad-liveramp.js');
+  document.head.appendChild(liverampScript);
+}
+})():(!undefined||undefined&&!undefined.includes("NG"))&&(function anonymous(
+) {
+var liveRampPropertyId = '08378bf6-c29a-482b-88a2-bf3e3bcf4974';
+if (!window.launchPad && liveRampPropertyId && liveRampPropertyId.charAt(0) !== '%') {
+  var liverampScript = document.createElement('script');
+  liverampScript.setAttribute('async', 'async');
+  liverampScript.setAttribute('defer', 'defer');
+  liverampScript.setAttribute('src','https://launchpad-wrapper.privacymanager.io/' + liveRampPropertyId + '/launchpad-liveramp.js');
+  document.head.appendChild(liverampScript);
+}
+})()
+},"propertyId":"08378bf6-c29a-482b-88a2-bf3e3bcf4974"}],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+var liveRampPropertyId = '08378bf6-c29a-482b-88a2-bf3e3bcf4974';
+if (!window.launchPad && liveRampPropertyId && liveRampPropertyId.charAt(0) !== '%') {
+  var liverampScript = document.createElement('script');
+  liverampScript.setAttribute('async', 'async');
+  liverampScript.setAttribute('defer', 'defer');
+  liverampScript.setAttribute('src','https://launchpad-wrapper.privacymanager.io/' + liveRampPropertyId + '/launchpad-liveramp.js');
+  document.head.appendChild(liverampScript);
+}
+})():(!undefined||undefined&&!undefined.includes("NG"))&&(function anonymous(
+) {
+var liveRampPropertyId = '08378bf6-c29a-482b-88a2-bf3e3bcf4974';
+if (!window.launchPad && liveRampPropertyId && liveRampPropertyId.charAt(0) !== '%') {
+  var liverampScript = document.createElement('script');
+  liverampScript.setAttribute('async', 'async');
+  liverampScript.setAttribute('defer', 'defer');
+  liverampScript.setAttribute('src','https://launchpad-wrapper.privacymanager.io/' + liveRampPropertyId + '/launchpad-liveramp.js');
+  document.head.appendChild(liverampScript);
+}
+})()
+},"defaultPropertyId":"08378bf6-c29a-482b-88a2-bf3e3bcf4974"});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"NG","vendorId":"lotame","allowedRegions":undefined,"blockedRegions":["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"],"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["thespruceeats.com","allrecipes.ca","bodynetwork.com","emerils.com","livingthecountrylife.com","verywellhealth.com","xojane.com","siempremujer.com","southernliving.com","ew.com","aboutespanol.com","hellogiggles.com","liveabout.com","verywellmind.com","thesprucepets.com","simplyrecipes.com","shape.com","babynames.net","mywedding.com","departures.com","verywell.com","allpeoplequilt.com","instyle.com","people.com","myrecipes.com","thebalance.com","diabeticliving.com","eatthis.com","investopedia.com","thoughtco.com","eatingwell.com","betterhomesandgardens.com","allrecipes.com.au","verywellfamily.com","thebalancesmb.com","bhg.com","treehugger.com","selectablemedia.com","mydomaine.com","celebwell.com","foodandwine.com","realsimple.com","travelandleisure.com","cookinglight.com","thespruce.com","fitpregnancy.com","seriouseats.com","diabeticlivingonline.com","peopleenespanol.com","health.com","dailypaws.com","thebalancecareers.com","parenting.com","thebalancemoney.com","entertainmentweekly.com","more.com","byrdie.co.uk","woodmagazine.com","about.com","serpadres.com","parents.com","brides.com","allrecipes.co.uk","midwestliving.com","themagnoliajournal.com","dotdash.com","thebalanceeveryday.com","allrecipes.com","bestlifeonline.com","lifewire.com","tripsavvy.com","thesprucecrafts.com","liquor.com","byrdie.com","marthastewartweddings.com","marthastewart.com","local.thespruce.com","learnreligions.com","thethirty.byrdie.com","verywellfit.com","traditionalhome.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})():(!["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"]||["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"]&&!["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"].includes("NG"))&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})()
+},"propertyId":undefined}],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})():(!["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"]||["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"]&&!["AR","BZ","BO","BR","CL","CO","CR","CU","DO","EC","SV","GT","GY","HT","HN","MX","NI","PA","PY","PE","SR","UY","VE","AW","GF","PR"].includes("NG"))&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})()
+},"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"NG","vendorId":"pubcommon","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["thespruceeats.com","allrecipes.ca","bodynetwork.com","emerils.com","livingthecountrylife.com","verywellhealth.com","xojane.com","siempremujer.com","southernliving.com","ew.com","aboutespanol.com","hellogiggles.com","liveabout.com","verywellmind.com","thesprucepets.com","simplyrecipes.com","shape.com","babynames.net","mywedding.com","departures.com","verywell.com","allpeoplequilt.com","instyle.com","people.com","myrecipes.com","thebalance.com","diabeticliving.com","eatthis.com","investopedia.com","thoughtco.com","eatingwell.com","betterhomesandgardens.com","allrecipes.com.au","verywellfamily.com","thebalancesmb.com","bhg.com","treehugger.com","selectablemedia.com","mydomaine.com","celebwell.com","foodandwine.com","realsimple.com","travelandleisure.com","cookinglight.com","thespruce.com","fitpregnancy.com","seriouseats.com","diabeticlivingonline.com","peopleenespanol.com","health.com","dailypaws.com","thebalancecareers.com","parenting.com","thebalancemoney.com","entertainmentweekly.com","more.com","byrdie.co.uk","woodmagazine.com","about.com","serpadres.com","parents.com","brides.com","allrecipes.co.uk","midwestliving.com","themagnoliajournal.com","dotdash.com","thebalanceeveryday.com","allrecipes.com","bestlifeonline.com","lifewire.com","tripsavvy.com","thesprucecrafts.com","liquor.com","byrdie.com","marthastewartweddings.com","marthastewart.com","local.thespruce.com","learnreligions.com","thethirty.byrdie.com","verywellfit.com","traditionalhome.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+if (!window.PublisherCommonId) {
+    var pubcommonScript = document.createElement('script');
+    pubcommonScript.src = '//secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js';
+    document.head.appendChild(pubcommonScript);
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+if (!window.PublisherCommonId) {
+    var pubcommonScript = document.createElement('script');
+    pubcommonScript.src = '//secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js';
+    document.head.appendChild(pubcommonScript);
+}
+})()
+},"propertyId":undefined}],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+if (!window.PublisherCommonId) {
+    var pubcommonScript = document.createElement('script');
+    pubcommonScript.src = '//secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js';
+    document.head.appendChild(pubcommonScript);
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+if (!window.PublisherCommonId) {
+    var pubcommonScript = document.createElement('script');
+    pubcommonScript.src = '//secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js';
+    document.head.appendChild(pubcommonScript);
+}
+})()
+},"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"NG","vendorId":"yahoo","allowedRegions":["US"],"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["thespruceeats.com","allrecipes.ca","bodynetwork.com","emerils.com","livingthecountrylife.com","verywellhealth.com","xojane.com","siempremujer.com","southernliving.com","ew.com","aboutespanol.com","hellogiggles.com","liveabout.com","verywellmind.com","thesprucepets.com","simplyrecipes.com","shape.com","babynames.net","mywedding.com","departures.com","verywell.com","allpeoplequilt.com","instyle.com","people.com","myrecipes.com","thebalance.com","diabeticliving.com","eatthis.com","investopedia.com","thoughtco.com","eatingwell.com","betterhomesandgardens.com","allrecipes.com.au","verywellfamily.com","thebalancesmb.com","bhg.com","treehugger.com","selectablemedia.com","mydomaine.com","celebwell.com","foodandwine.com","realsimple.com","travelandleisure.com","cookinglight.com","thespruce.com","fitpregnancy.com","seriouseats.com","diabeticlivingonline.com","peopleenespanol.com","health.com","dailypaws.com","thebalancecareers.com","parenting.com","thebalancemoney.com","entertainmentweekly.com","more.com","byrdie.co.uk","woodmagazine.com","about.com","serpadres.com","parents.com","brides.com","allrecipes.co.uk","midwestliving.com","themagnoliajournal.com","dotdash.com","thebalanceeveryday.com","allrecipes.com","bestlifeonline.com","lifewire.com","tripsavvy.com","thesprucecrafts.com","liquor.com","byrdie.com","marthastewartweddings.com","marthastewart.com","local.thespruce.com","learnreligions.com","thethirty.byrdie.com","verywellfit.com","traditionalhome.com"],"script":function anonymous(
+) {
+["US"]?["US"].includes("NG")&&(function anonymous(
+) {
+var yahooPropertyId = '58873';
+const params = { 
+  pixelId: yahooPropertyId,
+};
+
+function createYahooScript () {
+  var yahooScript = document.createElement('script');
+  yahooScript.src = '//connectid.analytics.yahoo.com/connectId.js';
+  yahooScript['onload'] = function(e) { connectId.getIds(params,function (val) { window.apstag.__yahoo = true }) };
+  document.head.appendChild(yahooScript);
+}
+
+if (yahooPropertyId && yahooPropertyId.charAt(0) !== '%') {
+  if (!window.connectId) {
+    createYahooScript();
+  }
+};
+})():(!undefined||undefined&&!undefined.includes("NG"))&&(function anonymous(
+) {
+var yahooPropertyId = '58873';
+const params = { 
+  pixelId: yahooPropertyId,
+};
+
+function createYahooScript () {
+  var yahooScript = document.createElement('script');
+  yahooScript.src = '//connectid.analytics.yahoo.com/connectId.js';
+  yahooScript['onload'] = function(e) { connectId.getIds(params,function (val) { window.apstag.__yahoo = true }) };
+  document.head.appendChild(yahooScript);
+}
+
+if (yahooPropertyId && yahooPropertyId.charAt(0) !== '%') {
+  if (!window.connectId) {
+    createYahooScript();
+  }
+};
+})()
+},"propertyId":"58873"}],"defaultScript":function anonymous(
+) {
+["US"]?["US"].includes("NG")&&(function anonymous(
+) {
+var yahooPropertyId = '58873';
+const params = { 
+  pixelId: yahooPropertyId,
+};
+
+function createYahooScript () {
+  var yahooScript = document.createElement('script');
+  yahooScript.src = '//connectid.analytics.yahoo.com/connectId.js';
+  yahooScript['onload'] = function(e) { connectId.getIds(params,function (val) { window.apstag.__yahoo = true }) };
+  document.head.appendChild(yahooScript);
+}
+
+if (yahooPropertyId && yahooPropertyId.charAt(0) !== '%') {
+  if (!window.connectId) {
+    createYahooScript();
+  }
+};
+})():(!undefined||undefined&&!undefined.includes("NG"))&&(function anonymous(
+) {
+var yahooPropertyId = '58873';
+const params = { 
+  pixelId: yahooPropertyId,
+};
+
+function createYahooScript () {
+  var yahooScript = document.createElement('script');
+  yahooScript.src = '//connectid.analytics.yahoo.com/connectId.js';
+  yahooScript['onload'] = function(e) { connectId.getIds(params,function (val) { window.apstag.__yahoo = true }) };
+  document.head.appendChild(yahooScript);
+}
+
+if (yahooPropertyId && yahooPropertyId.charAt(0) !== '%') {
+  if (!window.connectId) {
+    createYahooScript();
+  }
+};
+})()
+},"defaultPropertyId":"58873"});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"NG","vendorId":"lightPublisherAudiences","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["thespruceeats.com","allrecipes.ca","bodynetwork.com","emerils.com","livingthecountrylife.com","verywellhealth.com","xojane.com","siempremujer.com","southernliving.com","ew.com","aboutespanol.com","hellogiggles.com","liveabout.com","verywellmind.com","thesprucepets.com","simplyrecipes.com","shape.com","babynames.net","mywedding.com","departures.com","verywell.com","allpeoplequilt.com","instyle.com","people.com","myrecipes.com","thebalance.com","diabeticliving.com","eatthis.com","investopedia.com","thoughtco.com","eatingwell.com","betterhomesandgardens.com","allrecipes.com.au","verywellfamily.com","thebalancesmb.com","bhg.com","treehugger.com","selectablemedia.com","mydomaine.com","celebwell.com","foodandwine.com","realsimple.com","travelandleisure.com","cookinglight.com","thespruce.com","fitpregnancy.com","seriouseats.com","diabeticlivingonline.com","peopleenespanol.com","health.com","dailypaws.com","thebalancecareers.com","parenting.com","thebalancemoney.com","entertainmentweekly.com","more.com","byrdie.co.uk","woodmagazine.com","about.com","serpadres.com","parents.com","brides.com","allrecipes.co.uk","midwestliving.com","themagnoliajournal.com","dotdash.com","thebalanceeveryday.com","allrecipes.com","bestlifeonline.com","lifewire.com","tripsavvy.com","thesprucecrafts.com","liquor.com","byrdie.com","marthastewartweddings.com","marthastewart.com","local.thespruce.com","learnreligions.com","thethirty.byrdie.com","verywellfit.com","traditionalhome.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+if (typeof apstag.rr === 'function') {
+  apstag.rr({   'methods': [     {       'type': 'email',       'method': 'URL',       'target': 'lr_input'     }   ] });
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+if (typeof apstag.rr === 'function') {
+  apstag.rr({   'methods': [     {       'type': 'email',       'method': 'URL',       'target': 'lr_input'     }   ] });
+}
+})()
+},"propertyId":"{   'methods': [     {       'type': 'email',       'method': 'URL',       'target': 'lr_input'     }   ] }"}],"defaultScript":undefined,"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"NG","vendorId":"acceptableAdsExchange","allowedRegions":undefined,"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["allrecipes.ca","bodynetwork.com","emerils.com","livingthecountrylife.com","xojane.com","siempremujer.com","hellogiggles.com","babynames.net","mywedding.com","departures.com","verywell.com","thebalance.com","diabeticliving.com","eatthis.com","betterhomesandgardens.com","allrecipes.com.au","verywellfamily.com","thebalancesmb.com","selectablemedia.com","celebwell.com","cookinglight.com","fitpregnancy.com","diabeticlivingonline.com","thebalancecareers.com","parenting.com","entertainmentweekly.com","more.com","byrdie.co.uk","about.com","serpadres.com","allrecipes.co.uk","themagnoliajournal.com","dotdash.com","thebalanceeveryday.com","bestlifeonline.com","marthastewartweddings.com","local.thespruce.com","thethirty.byrdie.com","traditionalhome.com"],"script":undefined,"propertyId":"5657833865478144"},{"hostnames":["thespruceeats.com","verywellhealth.com","southernliving.com","ew.com","aboutespanol.com","liveabout.com","verywellmind.com","thesprucepets.com","simplyrecipes.com","shape.com","allpeoplequilt.com","instyle.com","people.com","myrecipes.com","investopedia.com","thoughtco.com","eatingwell.com","bhg.com","treehugger.com","mydomaine.com","foodandwine.com","realsimple.com","travelandleisure.com","thespruce.com","seriouseats.com","peopleenespanol.com","health.com","dailypaws.com","thebalancemoney.com","woodmagazine.com","parents.com","brides.com","midwestliving.com","allrecipes.com","lifewire.com","tripsavvy.com","thesprucecrafts.com","liquor.com","byrdie.com","marthastewart.com","learnreligions.com","verywellfit.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+var blockthroughPropertyId = '5657833865478144';
+if (!window.__bt_already_invoked && blockthroughPropertyId && blockthroughPropertyId.charAt(0) !== '%') {
+  createScript('https://btloader.com/tag?o='+ blockthroughPropertyId + '&upapi=true');
+}
+
+function createScript(url){
+  var blockthroughScript = document.createElement('script');
+  blockthroughScript.type = 'text/javascript';
+  blockthroughScript.src = url;
+  document.head.appendChild(blockthroughScript);
+}
+})():(!undefined||undefined&&!undefined.includes("NG"))&&(function anonymous(
+) {
+var blockthroughPropertyId = '5657833865478144';
+if (!window.__bt_already_invoked && blockthroughPropertyId && blockthroughPropertyId.charAt(0) !== '%') {
+  createScript('https://btloader.com/tag?o='+ blockthroughPropertyId + '&upapi=true');
+}
+
+function createScript(url){
+  var blockthroughScript = document.createElement('script');
+  blockthroughScript.type = 'text/javascript';
+  blockthroughScript.src = url;
+  document.head.appendChild(blockthroughScript);
+}
+})()
+},"propertyId":"5657833865478144"}],"defaultScript":undefined,"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"NG","vendorId":"liveintent","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["allrecipes.ca","bodynetwork.com","emerils.com","xojane.com","siempremujer.com","ew.com","babynames.net","mywedding.com","departures.com","verywell.com","diabeticliving.com","allrecipes.com.au","thebalancesmb.com","bhg.com","selectablemedia.com","cookinglight.com","fitpregnancy.com","diabeticlivingonline.com","thebalancecareers.com","parenting.com","thebalancemoney.com","more.com","byrdie.co.uk","about.com","serpadres.com","allrecipes.co.uk","themagnoliajournal.com","dotdash.com","thebalanceeveryday.com","marthastewartweddings.com","local.thespruce.com","thethirty.byrdie.com","traditionalhome.com"],"script":undefined,"propertyId":"443"},{"hostnames":["thespruceeats.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72516"},{"hostnames":["livingthecountrylife.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1126"},{"hostnames":["verywellhealth.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72669"},{"hostnames":["southernliving.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45370"},{"hostnames":["aboutespanol.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79927"},{"hostnames":["hellogiggles.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79930"},{"hostnames":["liveabout.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79928"},{"hostnames":["verywellmind.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72670"},{"hostnames":["thesprucepets.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73303"},{"hostnames":["simplyrecipes.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72515"},{"hostnames":["shape.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"10646"},{"hostnames":["allpeoplequilt.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1124"},{"hostnames":["instyle.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45371"},{"hostnames":["people.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"46111"},{"hostnames":["myrecipes.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45412"},{"hostnames":["thebalance.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79922"},{"hostnames":["eatthis.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"9068"},{"hostnames":["investopedia.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"77015"},{"hostnames":["thoughtco.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79925"},{"hostnames":["eatingwell.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1138"},{"hostnames":["betterhomesandgardens.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1115"},{"hostnames":["verywellfamily.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79924"},{"hostnames":["treehugger.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73301"},{"hostnames":["mydomaine.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73298"},{"hostnames":["celebwell.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79929"},{"hostnames":["foodandwine.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45726"},{"hostnames":["realsimple.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"44795"},{"hostnames":["travelandleisure.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45734"},{"hostnames":["thespruce.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72517"},{"hostnames":["seriouseats.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73300"},{"hostnames":["peopleenespanol.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"46109"},{"hostnames":["health.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"46113"},{"hostnames":["dailypaws.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"61676"},{"hostnames":["entertainmentweekly.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45960"},{"hostnames":["woodmagazine.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1127"},{"hostnames":["parents.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1048"},{"hostnames":["brides.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72666"},{"hostnames":["midwestliving.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1125"},{"hostnames":["allrecipes.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"443"},{"hostnames":["bestlifeonline.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"27335"},{"hostnames":["lifewire.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73296"},{"hostnames":["tripsavvy.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73302"},{"hostnames":["thesprucecrafts.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72520"},{"hostnames":["liquor.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73299"},{"hostnames":["byrdie.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72667"},{"hostnames":["marthastewart.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"9405"},{"hostnames":["learnreligions.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79926"},{"hostnames":["verywellfit.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("NG")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("NG"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72672"}],"defaultScript":undefined,"defaultPropertyId":undefined});record("_config/config/didLoad",undefined)}catch(e){console.error(e)}})();
